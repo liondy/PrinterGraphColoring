@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="discotics.FrmAboutController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="9.0" layoutY="14.0" prefHeight="110.0" prefWidth="582.0" text="Implementasi Pewarnaan Graf pada Penjadwalan Penggunaan Printer" textAlignment="CENTER" underline="true" wrapText="true" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="172.0" layoutY="170.0" prefHeight="181.0" prefWidth="255.0" text="Created by : &#10;&#10;Yovannanta Jong&#9;&#9;2017730006&#10;Ignatius Michael Liondy&#9;2017730007&#10;Indra Permana Sugianto&#9;2017730008&#10;Jodi Tanato&#9;&#9;&#9;2017730037&#10;Melody Victorian Angel&#9;2017730060&#10;&#10;Lecturer : Natalia, S.Si" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="48.66666666666666" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="170.00000000000003">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="115.0" prefHeight="33.0" prefWidth="466.0" text="Help you scheduling printer based on the computer being used" textAlignment="CENTER" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnProceed" layoutX="507.0" layoutY="351.0" mnemonicParsing="false" onAction="#proceed" text="Proceed" AnchorPane.bottomAnchor="23.666666666666668" AnchorPane.rightAnchor="33.666666666666664" />
+   </children>
+</AnchorPane>
