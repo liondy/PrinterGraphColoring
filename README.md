@@ -1,4 +1,5 @@
 # PrinterGraphColoring
+## Implementasi Pewarnaan Graph pada Penjadwalan Penggunaan Printer
 Merupakan tugas akhir mata kuliah Struktur Diskret
 
 Aplikasi ini berbentuk GUI dan berfungsi untuk mengatur printer mana yang digunakan pada sebuah tempat fotocopy dengan memanfaatkan teknik Graph Coloring
